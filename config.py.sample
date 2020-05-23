@@ -1,0 +1,20 @@
+# Base name of the site to search
+site_name = ""
+
+# Keywords for jobs you're looking for.
+keyword_list = [
+    "Example 1",
+    "Example 2",
+]
+
+# Which countries don't you want jobs in?
+country_blacklist = ["Vulcan", "Tatooine"]
+
+# Which languages do you want to search for job ads?
+language_whitelist = ["en"]
+
+# Strict search only searches the job titles. Setting this to false defaults to the site's looser default search
+strict_search = True
+
+# Scrape each job page from the listing to get more details. Slower but more comprehensive
+get_job_details = False
